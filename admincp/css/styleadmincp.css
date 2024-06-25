@@ -1,0 +1,148 @@
+/* CSS Document */
+
+ul.admincp_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.admincp_list li{
+    float: left;
+	margin: 5px
+}
+
+
+h3.title_admin {
+    text-align: center;
+    font-size: 40px;
+    color: BLUE;
+}
+
+.wrapper{
+	border: 1px solid black;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both
+}
+
+ul.list_trang{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+ul.list_trang li{
+	display: block;
+	float: left;
+	background: #BDFF91;
+	padding: 5px 13px;
+	margin: 5px;
+}
+
+
+ul.list_trang li a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.datetimepicker{
+	display: flex;
+	margin: 10px;
+}
+
+.datetimepicker input{
+	margin-right: 10px;
+}
+
+/* Style the navbar */
+.navbar {
+  padding: 0.8rem 1rem;
+  background-color: #B4B4B4;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the navbar brand */
+.navbar-brand {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+/* Style the navbar toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' aria-label='Toggle navigation'><path d='M15,7.5l-12.707,12.707L15,27.907L27.707,15.207L15,7.5'/></svg>");
+}
+
+/* Style the collapsed navbar menu */
+.collapse.navbar-collapse {
+  padding-right: 0;
+}
+
+/* Style the navbar links */
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	margin-top: -15px;
+	margin-bottom: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 1rem;
+}
+
+.nav-link {
+  color: #1E1E1E;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #000000;
+	font-weight: bold;
+}
+
+/* Style the active navbar link */
+.nav-item.active .nav-link {
+  color: #fff;
+  background-color: #007bff;
+}
+
+/* Style the disabled navbar link */
+.nav-item.disabled .nav-link {
+  color: #6c757d;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+
+.statistics-button {
+      background-color: #4CAF50; /* Màu nền */
+      padding: 10px 20px; /* Độ dày của nút */
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px; /* Góc bo tròn */
+      border: none; /* Không có đường viền */
+      cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút */
+    }
+
+    /* Hiệu ứng hover khi di chuột qua nút */
+.statistics-button:hover {
+	background-color: #45a049; /* Màu nền thay đổi khi di chuột qua */
+}
+
+.statistics-button a{
+	color: white;
+	text-decoration: none
+}
+
